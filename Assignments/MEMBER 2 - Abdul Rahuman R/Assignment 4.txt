@@ -1,0 +1,786 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fwU2iooz85jt"
+      },
+      "source": [
+        "## Exercises\n",
+        "\n",
+        "Answer the questions or complete the tasks outlined in bold below, use the specific method described if applicable."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "SzBQQ_ml85j1"
+      },
+      "source": [
+        "** What is 7 to the power of 4?**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=pow(7,4)\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A4xPSZLxqiHb",
+        "outputId": "23f4a7e4-faee-45b5-d3a4-cb12a8f2758b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2401\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "UhvE4PBC85j3",
+        "outputId": "a05565aa-db43-4716-e87d-41c5c8a6f95e"
+      },
+      "outputs": [
+        {
+          "data": {
+            "text/plain": [
+              "2401"
+            ]
+          },
+          "execution_count": 1,
+          "metadata": {
+            "tags": []
+          },
+          "output_type": "execute_result"
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ds8G9S8j85j6"
+      },
+      "source": [
+        "** Split this string:**\n",
+        "\n",
+        "    s = \"Hi there Sam!\"\n",
+        "    \n",
+        "**into a list. **"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "collapsed": true,
+        "id": "GD_Tls3H85j7",
+        "outputId": "cc4f78d9-0488-4b3f-d2c2-f53c493d317d",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Hi', 'there', 'Sam!']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "s = \"Hi there Sam!\"\n",
+        "s.split()\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "BXmj6kFWJN_9"
+      },
+      "source": [
+        "** Split this string:**\n",
+        "\n",
+        "    s = \"Hi there Sam!\"\n",
+        "    \n",
+        "**into a list. **"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "b_Z9dYIkqNrY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "RRGOKoai85j8",
+        "outputId": "21b1682e-7861-408f-cf03-7a872e734830",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('Hi', 'there', 'dad!')\n"
+          ]
+        }
+      ],
+      "source": [
+        "tup=('Hi','there','dad!')\n",
+        "print(tup)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "_bBNOu-785j9"
+      },
+      "source": [
+        "** Given the variables:**\n",
+        "\n",
+        "    planet = \"Earth\"\n",
+        "    diameter = 12742\n",
+        "\n",
+        "** Use .format() to print the following string: **\n",
+        "\n",
+        "    The diameter of Earth is 12742 kilometers."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "collapsed": true,
+        "id": "2TrzmDcS85j-",
+        "outputId": "0253f57f-c45f-4a35-897c-cf7fc3962736",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The diameter of Earth is 12742 kilometers\n"
+          ]
+        }
+      ],
+      "source": [
+        "planet=\"Earth\"\n",
+        "diameter=12742\n",
+        "print(\"The diameter of\" , planet ,\"is\",diameter,\"kilometers\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "s_dQ7_xc85j_",
+        "outputId": "4235fdfb-5591-4dd9-f9d2-77f311977633"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "The diameter of Earth is 12742 kilometers.\n"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "QAKtN7Hh85kB"
+      },
+      "source": [
+        "** Given this nested list, use indexing to grab the word \"hello\" **"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "collapsed": true,
+        "id": "-7dzQDyK85kD",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "dd9d16d6-d070-4713-846a-6c1733990c5c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n"
+          ]
+        }
+      ],
+      "source": [
+        "lst = [1,2,[3,4],[5,[100,200,['hello']],23,11],1,7]\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "6m5C0sTW85kE",
+        "outputId": "b1f64e14-bd76-4e4c-eaff-68d0ec8e0638",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['hello']\n"
+          ]
+        }
+      ],
+      "source": [
+        "l = [1,2,[3,4],[5,[100,200,['hello']],23,11],1,7]\n",
+        "print(l[3][1][2])"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9Ma7M4a185kF"
+      },
+      "source": [
+        "** Given this nest dictionary grab the word \"hello\". Be prepared, this will be annoying/tricky **"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "vrYAxSYN85kG"
+      },
+      "outputs": [],
+      "source": [
+        "d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "id": "FlILSdm485kH",
+        "outputId": "864f35de-8412-4d6f-fb53-b13c96353daf",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n"
+          ]
+        }
+      ],
+      "source": [
+        "d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}\n",
+        "print(d['k1'][3]['tricky'][3]['target'][3])\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "FInV_FKB85kI"
+      },
+      "source": [
+        "** What is the main difference between a tuple and a list? **"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "collapsed": true,
+        "id": "_VBWf00q85kJ"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "zP-j0HZj85kK"
+      },
+      "source": [
+        "** Create a function that grabs the email website domain from a string in the form: **\n",
+        "\n",
+        "    user@domain.com\n",
+        "    \n",
+        "**So for example, passing \"user@domain.com\" would return: domain.com**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "collapsed": true,
+        "id": "unvEAwjk85kL",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c40ef6a1-ed3c-4b95-f261-9d5e0990f017"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "domain.com\n"
+          ]
+        }
+      ],
+      "source": [
+        "d=\"user@domain.com\"\n",
+        "def fun(d):\n",
+        "  a=\"\"\n",
+        "  res= False\n",
+        "  for i in d:\n",
+        "    if(res):\n",
+        "      a+=i\n",
+        "    if(i==\"@\"):\n",
+        "      res = True\n",
+        "  return a\n",
+        "  \n",
+        "print(fun(d))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "Gb9dspLC85kL",
+        "outputId": "4216116b-da08-45a2-9545-d6b13bcefaeb"
+      },
+      "outputs": [
+        {
+          "data": {
+            "text/plain": [
+              "'domain.com'"
+            ]
+          },
+          "execution_count": 26,
+          "metadata": {
+            "tags": []
+          },
+          "output_type": "execute_result"
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "gYydb-y085kM"
+      },
+      "source": [
+        "** Create a basic function that returns True if the word 'dog' is contained in the input string. Don't worry about edge cases like a punctuation being attached to the word dog, but do account for capitalization. **"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "collapsed": true,
+        "id": "Q4ldLGV785kM",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "28f42a6f-8f2d-444d-be95-cb8d91b97df0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ],
+      "source": [
+        "sentence =\"My Dog name is Dora\"\n",
+        "word = \"Dog\"\n",
+        "def res(sentence,word):\n",
+        "  s=sentence.split(\" \")\n",
+        "  for i in s:\n",
+        "    if(i==word):\n",
+        "      return True\n",
+        "  return False\n",
+        "\n",
+        "if(res(sentence,word)):\n",
+        "  print(\"True\")\n",
+        "else:\n",
+        "  print(\"False\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "id": "EqH6b7yv85kN",
+        "outputId": "c051c50a-6b54-4914-a2e8-d33d6f41bb34",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 235
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-9-8ae36235f091>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      6\u001b[0m   \u001b[0;32mreturn\u001b[0m \u001b[0;32mFalse\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 8\u001b[0;31m \u001b[0;32mif\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mres\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msentence\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mword\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      9\u001b[0m   \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"True\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     10\u001b[0m \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'sentence' is not defined"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3c1a810a-4573-49e5-bbc4-f344a63ec327",
+        "id": "DQYybhLJKntl"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "AyHQFALC85kO"
+      },
+      "source": [
+        "** Create a function that counts the number of times the word \"dog\" occurs in a string. Again ignore edge cases. **"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 12,
+      "metadata": {
+        "id": "6hdc169585kO",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "546fdb5f-a17b-497d-9cea-2c8d801b7a33"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n"
+          ]
+        }
+      ],
+      "source": [
+        "str1 =\"Dog is a pet and i love Dog\"\n",
+        "word =\"Dog\"\n",
+        "def res(str1, word):\n",
+        "    a = str1.split(\" \")\n",
+        "    c = 0\n",
+        "    for i in range(0, len(a)):\n",
+        "        if (word == a[i]):\n",
+        "           c = c+ 1           \n",
+        "    return c      \n",
+        "\n",
+        "print(res(str, word))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "igzsvHb385kO",
+        "outputId": "0602a2b5-0b18-48d8-e2d4-fe644cbccf8a"
+      },
+      "outputs": [
+        {
+          "data": {
+            "text/plain": [
+              "2"
+            ]
+          },
+          "execution_count": 31,
+          "metadata": {
+            "tags": []
+          },
+          "output_type": "execute_result"
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "3n7jJt4k85kP"
+      },
+      "source": [
+        "### Problem\n",
+        "**You are driving a little too fast, and a police officer stops you. Write a function\n",
+        "  to return one of 3 possible results: \"No ticket\", \"Small ticket\", or \"Big Ticket\". \n",
+        "  If your speed is 60 or less, the result is \"No Ticket\". If speed is between 61 \n",
+        "  and 80 inclusive, the result is \"Small Ticket\". If speed is 81 or more, the result is \"Big    Ticket\". Unless it is your birthday (encoded as a boolean value in the parameters of the function) -- on your birthday, your speed can be 5 higher in all \n",
+        "  cases. **"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "collapsed": true,
+        "id": "nvXMkvWk85kQ"
+      },
+      "outputs": [],
+      "source": [
+        "def caught_speeding(speed, is_birthday):\n",
+        "    \n",
+        "    if is_birthday:\n",
+        "        speeding = speed - 5\n",
+        "    else:\n",
+        "        speeding = speed\n",
+        "    \n",
+        "    if speeding > 80:\n",
+        "        return 'Big Ticket'\n",
+        "    elif speeding > 60:\n",
+        "        return 'Small Ticket'\n",
+        "    else:\n",
+        "        return 'No Ticket'"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 13,
+      "metadata": {
+        "id": "BU_UZcyk85kS",
+        "outputId": "467df1cb-7147-4d0c-84ef-cebfa23c2b59",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Big Ticket\n"
+          ]
+        }
+      ],
+      "source": [
+        "def caught_speeding(speed, is_birthday):\n",
+        "    \n",
+        "    if is_birthday:\n",
+        "        speeding = speed - 5\n",
+        "    else:\n",
+        "        speeding = speed\n",
+        "    \n",
+        "    if speeding > 80:\n",
+        "        return 'Big Ticket'\n",
+        "    elif speeding > 60:\n",
+        "        return 'Small Ticket'\n",
+        "    else:\n",
+        "        return 'No Ticket'\n",
+        "print(caught_speeding(200,True))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 14,
+      "metadata": {
+        "id": "p1AGJ7DM85kR",
+        "outputId": "920e2b3d-aa45-420a-b5bf-47bbba921008",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Small Ticket\n"
+          ]
+        }
+      ],
+      "source": [
+        "def caught_speeding(speed, is_birthday):\n",
+        "    \n",
+        "    if is_birthday:\n",
+        "        speeding = speed - 5\n",
+        "    else:\n",
+        "        speeding = speed\n",
+        "    \n",
+        "    if speeding > 80:\n",
+        "        return 'Big Ticket'\n",
+        "    elif speeding > 60:\n",
+        "        return 'Small Ticket'\n",
+        "    else:\n",
+        "        return 'No Ticket'\n",
+        "print(caught_speeding(71,False))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Create an employee list with basic salary values(at least 5 values for 5 employees)  and using a for loop retreive each employee salary and calculate total salary expenditure. "
+      ],
+      "metadata": {
+        "id": "Tie4rC7_kAOC"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "employees = [\"Rajalingam\",\"Sujithuraj\", \"Parvinkumar\", \"Muthuselvem\"]\n",
+        "salary={}\n",
+        "for emp in employees:\n",
+        "  amount=int(input(f'Enter salary for {emp}: '))\n",
+        "  salary[emp]=amount\n",
+        "print('Total salary ', sum(salary.values()))"
+      ],
+      "metadata": {
+        "id": "R5-CdXSKjacN",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2c79473b-6274-42da-f48a-df2ef916bff4"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter salary for Rajalingam: 200\n",
+            "Enter salary for Sujithuraj: 800\n",
+            "Enter salary for Parvinkumar: 300\n",
+            "Enter salary for Muthuselvem: 300\n",
+            "Total salary  1600\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Create two dictionaries in Python:\n",
+        "\n",
+        "First one to contain fields as Empid,  Empname,  Basicpay\n",
+        "\n",
+        "Second dictionary to contain fields as DeptName,  DeptId.\n",
+        "\n",
+        "Combine both dictionaries. "
+      ],
+      "metadata": {
+        "id": "-L1aiFqRkF5s"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x={'Empid' : 401, 'Empname':\"Rajalingam\",\"Basicpay\": 10000}\n",
+        "y= {'DeptName': \"Excecutive\", 'Deptid': 12345}\n",
+        "def res(x,y):\n",
+        "  z=x.copy()\n",
+        "  z.update(y)\n",
+        "  return z\n",
+        "z=res(x,y)\n",
+        "print(z)"
+      ],
+      "metadata": {
+        "id": "8ugVoEe0kOsk",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ff498386-d854-495b-d37e-33ee755491bf"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Empid': 401, 'Empname': 'Rajalingam', 'Basicpay': 10000, 'DeptName': 'Excecutive', 'Deptid': 12345}\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8.5"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
